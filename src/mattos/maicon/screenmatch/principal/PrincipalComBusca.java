@@ -3,6 +3,7 @@ package mattos.maicon.screenmatch.principal;
 import com.google.gson.FieldNamingPolicy;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import mattos.maicon.screenmatch.excecao.ErroDeConversaoDeAnoException;
 import mattos.maicon.screenmatch.modelos.Titulo;
 import mattos.maicon.screenmatch.modelos.TituloOmdb;
 
@@ -51,6 +52,8 @@ public class PrincipalComBusca {
             System.out.println( "Erro nas informações retornadas: " + e.getMessage() );
         } catch( IllegalArgumentException e ){
             System.out.println( "Algum erro de argumento na busca: " + e.getMessage() );
+        } catch ( ErroDeConversaoDeAnoException e ){
+            System.out.println( e.getMessage() );
         }
 
         finally {

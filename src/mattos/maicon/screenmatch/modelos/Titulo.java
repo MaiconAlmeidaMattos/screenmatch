@@ -1,14 +1,11 @@
 package mattos.maicon.screenmatch.modelos;
 
 import com.google.gson.annotations.SerializedName;
+import mattos.maicon.screenmatch.excecao.ErroDeConversaoDeAnoException;
 
 public class Titulo implements Comparable<Titulo>{
-    @SerializedName("Title")
     private String nome;
-
-    @SerializedName("Year")
     private int anoDeLancamento;
-
     private boolean incluidoNoPlano;
     private double somaDasAvaliacoes;
     private int totalDeAvaliacoes;
@@ -21,6 +18,10 @@ public class Titulo implements Comparable<Titulo>{
 
     public Titulo( TituloOmdb tituloOmdb ){
         this.nome = tituloOmdb.title();
+
+        if( tituloOmdb.year().length() > 4 ){
+            throw new ErroDeConversaoDeAnoException( "Não foi possivel converter o ano pois possui mais de 4 caracteres." );
+        }
         this.anoDeLancamento = Integer.valueOf( tituloOmdb.year() );
         this.duracaoEmMinutos = Integer.valueOf( tituloOmdb.runtime().substring(0,2) );
     }

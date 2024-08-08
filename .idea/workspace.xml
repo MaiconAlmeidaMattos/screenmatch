@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e54c0587-3708-4991-8269-750d2fca779b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/mattos/maicon/screenmatch/modelos/TituloOmdb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mattos/maicon/screenmatch/excecao/ErroDeConversaoDeAnoException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mattos/maicon/screenmatch/modelos/Titulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mattos/maicon/screenmatch/modelos/Titulo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mattos/maicon/screenmatch/principal/PrincipalComBusca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mattos/maicon/screenmatch/principal/PrincipalComBusca.java" afterDir="false" />
@@ -19,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Record" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -59,6 +59,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="mattos.maicon.screenmatch.excecao" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.PrincipalComBusca">
     <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mattos.maicon.screenmatch.principal.Principal" />
@@ -148,7 +153,9 @@
       <workItem from="1722681109591" duration="2993000" />
       <workItem from="1722729643149" duration="1958000" />
       <workItem from="1722767660228" duration="2296000" />
-      <workItem from="1723051559018" duration="5300000" />
+      <workItem from="1723051559018" duration="5597000" />
+      <workItem from="1723112644877" duration="2321000" />
+      <workItem from="1723118985171" duration="1000" />
     </task>
     <servers />
   </component>
