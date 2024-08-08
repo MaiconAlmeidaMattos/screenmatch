@@ -5,23 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e54c0587-3708-4991-8269-750d2fca779b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenmatch.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mattos/maicon/screenmatch/calculo/CalculadoraDeTempo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mattos/maicon/screenmatch/calculo/Classificavel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mattos/maicon/screenmatch/calculo/FiltroRecomendacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mattos/maicon/screenmatch/modelos/Episodio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mattos/maicon/screenmatch/modelos/Filme.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mattos/maicon/screenmatch/modelos/Serie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mattos/maicon/screenmatch/modelos/Titulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mattos/maicon/screenmatch/principal/Principal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mattos/maicon/screenmatch/principal/PrincipalComBusca.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mattos/maicon/screenmatch/principal/PrincipalComListas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mattos/maicon/screenmatch/modelos/TituloOmdb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mattos/maicon/screenmatch/modelos/Titulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mattos/maicon/screenmatch/modelos/Titulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mattos/maicon/screenmatch/principal/PrincipalComBusca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mattos/maicon/screenmatch/principal/PrincipalComBusca.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +20,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Record" />
       </list>
     </option>
   </component>
@@ -57,9 +45,9 @@
     &quot;Application.PrincipalComListas.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/dev/cefet/CEFET-2024-1/PROJETO E ARQUITETURA DE SOFTWARE/ExerciciosP2/mvc/Exercício 1&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/dev/alura/cursos/java_criando-sua-primeira-aplicacao/screenmatch&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -157,7 +145,10 @@
       <workItem from="1722364760342" duration="1451000" />
       <workItem from="1722515574946" duration="5450000" />
       <workItem from="1722629191834" duration="4121000" />
-      <workItem from="1722681109591" duration="1657000" />
+      <workItem from="1722681109591" duration="2993000" />
+      <workItem from="1722729643149" duration="1958000" />
+      <workItem from="1722767660228" duration="2296000" />
+      <workItem from="1723051559018" duration="5300000" />
     </task>
     <servers />
   </component>
