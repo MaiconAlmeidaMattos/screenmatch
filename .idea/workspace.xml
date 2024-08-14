@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e54c0587-3708-4991-8269-750d2fca779b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/mattos/maicon/screenmatch/excecao/ErroDeConversaoDeAnoException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mattos/maicon/screenmatch/modelos/Titulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mattos/maicon/screenmatch/modelos/Titulo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mattos/maicon/screenmatch/principal/PrincipalComBusca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mattos/maicon/screenmatch/principal/PrincipalComBusca.java" afterDir="false" />
@@ -156,6 +155,8 @@
       <workItem from="1723051559018" duration="5597000" />
       <workItem from="1723112644877" duration="2321000" />
       <workItem from="1723118985171" duration="1000" />
+      <workItem from="1723460237346" duration="3984000" />
+      <workItem from="1723638604745" duration="4229000" />
     </task>
     <servers />
   </component>

@@ -93,10 +93,8 @@ public class Titulo implements Comparable<Titulo>{
     @Override
     public String toString() {
         return """
-            nome = %s 
-            Ano de Lançamento = %d
-            Duração em minutos = %d
-            """.formatted( this.nome, this.anoDeLancamento, this.duracaoEmMinutos );
+            (nome = %s, Ano de Lançamento = %d, Duração em minutos = %d)"""
+                .formatted( this.nome, this.anoDeLancamento, this.duracaoEmMinutos );
     }
 
 
